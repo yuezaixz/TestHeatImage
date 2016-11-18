@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WdHeatInsoleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_feet_background_shape" translatesAutoresizingMaskIntoConstraints="NO" id="Zcc-qX-hyZ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="202" id="1cj-AO-nHl"/>
+                        <constraint firstAttribute="height" constant="446" id="jNo-HL-WfE"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oJS-s9-HPf" userLabel="point3Layer1">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="ORw-7q-zAF"/>
+                        <constraint firstAttribute="width" constant="250" id="TGe-qZ-mdo"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2L-R9-Y0D" userLabel="point2Layer1">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="4pg-Tf-fTz"/>
+                        <constraint firstAttribute="height" constant="250" id="PGQ-er-F4s"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDe-Mw-RLn" userLabel="point1Layer1">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="XH9-Fd-bN1"/>
+                        <constraint firstAttribute="width" constant="250" id="vge-zx-sxo"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXO-yp-0an" userLabel="point3Layer2">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="N8J-gc-JmF"/>
+                        <constraint firstAttribute="width" constant="250" id="VN7-QL-DZL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2f-la-tfa" userLabel="point1Layer2"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CaL-6q-Zz7" userLabel="point2Layer2">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="2NS-yy-ehC"/>
+                        <constraint firstAttribute="width" constant="250" id="ygZ-Bv-PFL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSD-Jb-aBH" userLabel="figure5Layer">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4it-iV-YIv"/>
+                        <constraint firstAttribute="height" constant="50" id="LsC-rD-2jC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7g0-6c-Ag2" userLabel="figure4Layer">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="1FI-s6-dxt"/>
+                        <constraint firstAttribute="height" constant="50" id="ITz-HK-jRg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gup-qa-s0j" userLabel="figure3Layer">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Ajy-yD-bFc"/>
+                        <constraint firstAttribute="height" constant="50" id="g63-VG-4TA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4m-QQ-8zY" userLabel="figure2Layer">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YTL-So-Klo"/>
+                        <constraint firstAttribute="width" constant="50" id="bR6-r0-tuf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgx-En-ADK" userLabel="figure1Layer">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="7xF-PA-sJf"/>
+                        <constraint firstAttribute="width" constant="100" id="K4h-oS-BPQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vSD-Jb-aBH" firstAttribute="top" secondItem="Zcc-qX-hyZ" secondAttribute="top" constant="64" id="2Y9-vE-WC6"/>
+                <constraint firstItem="wgx-En-ADK" firstAttribute="top" secondItem="Zcc-qX-hyZ" secondAttribute="top" constant="-4" id="4no-rG-Nwf"/>
+                <constraint firstItem="7g0-6c-Ag2" firstAttribute="leading" secondItem="b2f-la-tfa" secondAttribute="leading" constant="17" id="6bZ-aV-3Kh"/>
+                <constraint firstItem="Gup-qa-s0j" firstAttribute="leading" secondItem="Zcc-qX-hyZ" secondAttribute="leading" constant="57" id="8he-Zf-vYT"/>
+                <constraint firstItem="XDe-Mw-RLn" firstAttribute="centerY" secondItem="Zcc-qX-hyZ" secondAttribute="centerY" constant="-87" id="Eoj-Iv-W93"/>
+                <constraint firstItem="b2f-la-tfa" firstAttribute="trailing" secondItem="XDe-Mw-RLn" secondAttribute="trailing" constant="5" id="G8g-bq-bvv"/>
+                <constraint firstItem="b2f-la-tfa" firstAttribute="bottom" secondItem="XDe-Mw-RLn" secondAttribute="bottom" id="Hjq-nI-H2Y"/>
+                <constraint firstItem="Zcc-qX-hyZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="10" id="IYn-Kk-7Uy"/>
+                <constraint firstItem="sXO-yp-0an" firstAttribute="top" secondItem="oJS-s9-HPf" secondAttribute="top" id="Od5-Ir-I1c"/>
+                <constraint firstItem="Gup-qa-s0j" firstAttribute="top" secondItem="Zcc-qX-hyZ" secondAttribute="top" constant="19" id="OiN-7F-DgO"/>
+                <constraint firstItem="sXO-yp-0an" firstAttribute="leading" secondItem="oJS-s9-HPf" secondAttribute="leading" id="PDO-yz-hCa"/>
+                <constraint firstItem="sXO-yp-0an" firstAttribute="bottom" secondItem="oJS-s9-HPf" secondAttribute="bottom" id="TLG-5e-Gl7"/>
+                <constraint firstItem="Zcc-qX-hyZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="14" id="Us9-Zg-Sg3"/>
+                <constraint firstItem="CaL-6q-Zz7" firstAttribute="bottom" secondItem="i2L-R9-Y0D" secondAttribute="bottom" id="X4J-wc-u8h"/>
+                <constraint firstItem="wgx-En-ADK" firstAttribute="trailing" secondItem="Zcc-qX-hyZ" secondAttribute="trailing" constant="17" id="adQ-2n-Nek"/>
+                <constraint firstItem="i2L-R9-Y0D" firstAttribute="centerY" secondItem="Zcc-qX-hyZ" secondAttribute="centerY" constant="-37" id="b7V-Xr-XyK"/>
+                <constraint firstItem="CaL-6q-Zz7" firstAttribute="trailing" secondItem="i2L-R9-Y0D" secondAttribute="trailing" id="eJd-tn-F9t"/>
+                <constraint firstItem="k4m-QQ-8zY" firstAttribute="top" secondItem="Zcc-qX-hyZ" secondAttribute="top" constant="12" id="eee-Tv-GnG"/>
+                <constraint firstItem="vSD-Jb-aBH" firstAttribute="leading" secondItem="Zcc-qX-hyZ" secondAttribute="leading" constant="-3" id="ejA-p4-xV6"/>
+                <constraint firstItem="oJS-s9-HPf" firstAttribute="centerX" secondItem="Zcc-qX-hyZ" secondAttribute="centerX" constant="-14" id="f5F-Vn-PMr"/>
+                <constraint firstItem="XDe-Mw-RLn" firstAttribute="centerX" secondItem="Zcc-qX-hyZ" secondAttribute="centerX" constant="24" id="fCr-w3-Fv5"/>
+                <constraint firstItem="oJS-s9-HPf" firstAttribute="centerY" secondItem="Zcc-qX-hyZ" secondAttribute="centerY" constant="119" id="fYj-ua-YDB"/>
+                <constraint firstItem="CaL-6q-Zz7" firstAttribute="leading" secondItem="i2L-R9-Y0D" secondAttribute="leading" id="jmZ-e2-HKW"/>
+                <constraint firstItem="b2f-la-tfa" firstAttribute="top" secondItem="XDe-Mw-RLn" secondAttribute="top" id="qW3-xv-scT"/>
+                <constraint firstItem="i2L-R9-Y0D" firstAttribute="centerX" secondItem="Zcc-qX-hyZ" secondAttribute="centerX" constant="-41" id="tLW-Vt-6on"/>
+                <constraint firstItem="sXO-yp-0an" firstAttribute="trailing" secondItem="oJS-s9-HPf" secondAttribute="trailing" id="uP9-PG-eAb"/>
+                <constraint firstItem="b2f-la-tfa" firstAttribute="leading" secondItem="XDe-Mw-RLn" secondAttribute="leading" constant="5" id="uQu-Um-7Ih"/>
+                <constraint firstItem="CaL-6q-Zz7" firstAttribute="top" secondItem="i2L-R9-Y0D" secondAttribute="top" id="vvV-fy-Zor"/>
+                <constraint firstItem="7g0-6c-Ag2" firstAttribute="top" secondItem="b2f-la-tfa" secondAttribute="top" constant="28" id="wAK-d1-PGH"/>
+                <constraint firstItem="k4m-QQ-8zY" firstAttribute="leading" secondItem="Zcc-qX-hyZ" secondAttribute="leading" constant="96" id="zhS-iJ-0t2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="Zcc-qX-hyZ" id="3FC-9G-X9l"/>
+                <outlet property="figure1LayerView" destination="wgx-En-ADK" id="47C-RW-sR2"/>
+                <outlet property="figure2LayerView" destination="k4m-QQ-8zY" id="3Ip-H1-cuo"/>
+                <outlet property="figure3LayerView" destination="Gup-qa-s0j" id="Gyy-fp-CFD"/>
+                <outlet property="figure4LayerView" destination="7g0-6c-Ag2" id="GIj-1R-5h9"/>
+                <outlet property="figure5LayerView" destination="vSD-Jb-aBH" id="6An-jC-E50"/>
+                <outlet property="point1Layer1View" destination="XDe-Mw-RLn" id="cCC-pT-fTH"/>
+                <outlet property="point1Layer2View" destination="b2f-la-tfa" id="WOE-z8-uOC"/>
+                <outlet property="point2Layer1View" destination="i2L-R9-Y0D" id="y18-ZC-CLF"/>
+                <outlet property="point2Layer2View" destination="CaL-6q-Zz7" id="2cI-BR-w7w"/>
+                <outlet property="point3Layer1View" destination="oJS-s9-HPf" id="X6i-ch-PRk"/>
+                <outlet property="point3Layer2View" destination="sXO-yp-0an" id="Jqd-cw-YQB"/>
+            </connections>
+            <point key="canvasLocation" x="-49" y="-40"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_feet_background_shape" width="202" height="447"/>
+    </resources>
+</document>
